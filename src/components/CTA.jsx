@@ -45,9 +45,20 @@ const CTA = () => {
       </List>
 
       <Box sx={{ mt: 1 }}>
-        <Button variant="contained" sx={{ backgroundColor: '#0D0D0D', color: '#ffffff' }}>
-          Solicitar Consultoria
-        </Button>
+<Button 
+  variant="contained" 
+  href="https://wa.me/5511950604767" 
+  target="_blank"
+  sx={{ 
+    backgroundColor: '#0D0D0D', 
+    color: '#ffffff',
+    '&:hover': {
+      backgroundColor: '#1a1a1a',
+    }
+  }}
+>
+  Solicitar Consultoria
+</Button>
       </Box>
     </Box>
   )
