@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Box, CssBaseline, useTheme, useMediaQuery } from '@mui/material'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
+import { Analytics } from "@vercel/analytics/next"
 
 import Navbar from './components/Navbar'
 import HeroSplit from './components/HeroSplit'
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
+      <Analytics/>
       <CssBaseline />
       <Box>
         <Navbar />

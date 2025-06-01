@@ -16,7 +16,7 @@ const HeroSplit = () => {
             </Typography>
                 <Button
                 component="a"
-                href="https://wa.me/551195060" // substitua pelo número real com DDD e sem espaços ou símbolos
+                href="https://wa.me/5511950604767" // substitua pelo número real com DDD e sem espaços ou símbolos
                 target="_blank"
                 rel="noopener noreferrer"
                 variant="contained"
